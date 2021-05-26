@@ -5,10 +5,19 @@ let salleDattente = {
 
 let cabinetDocteur = {
     nom : "cabinet du docteur",
-    personne : [docteur]
+    personne : []
 }
 
 let cimetiere = {
-    nom : "le cimertiere",
+    nom : "cimetiere",
     personne : []
 }
+
+// objet pharmacie 
+
+let pharmacie = {
+    nom : "pharmacie",
+    personne : [],
+    medocs : ["antidépresseur", "hashish", "zyprexa", "pomade", "antiPsychotique"]
+}
+export {salleDattente, cabinetDocteur, cimetiere, pharmacie}
